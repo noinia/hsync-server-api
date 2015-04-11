@@ -2,11 +2,6 @@
 /auth                             AuthR   Auth    getAuth
 
 
-/favicon.ico                      FaviconR        GET
-/robots.txt                       RobotsR         GET
-
-/                                 HomeR           GET
-
 /login                            MyLoginR        POST
 
 
@@ -27,5 +22,18 @@
 /putDir/#FileIdent/*Path          PutDirR         POST
 
 
+
+
+
+
+
+/                                 HomeR           GET
+
 /view/tree/*Path                  ViewTreeR       GET
 /view/state/*Path                 ViewStateR      GET
+
+/web/putDir/*Path                 WebPutDirR      POST
+/web/putFile/*Path                WebPutFileR     POST
+
+/favicon.ico                      FaviconR        GET
+/robots.txt                       RobotsR         GET
